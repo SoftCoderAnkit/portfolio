@@ -1,0 +1,164 @@
+<html>
+    <head>
+        <title>portfolio</title>
+<link rel="stylesheet" href="index.css">
+<script>
+    function openEmailClient(event) {
+        event.preventDefault(); // Prevent the form from submitting normally
+        var userEmail = document.getElementById('mail').value;
+        var ownerEmail = 'kumar233ankit@gmail.com'; // Replace with your email address
+
+        if (userEmail) {
+            var mailtoLink = `mailto:${ownerEmail}?body=My email is ${userEmail}`;
+            window.location.href = mailtoLink;
+        } else {
+            alert('Please enter your email address.');
+        }
+    }
+</script>
+    </head>
+    <body>
+
+       
+<div class="user">
+  
+
+    <nav>
+    
+        <ul>
+            <li>   <a href="#home">Lobby</a>   </li>
+            <li>   <a href="#about">About</a>   </li>
+            <li>   <a href="#achi">Achievments</a>   </li>
+            <li>   <a href="#hobbies">Hobbies</a>   </li>
+            <li>   <a href="#accounts">Accounts</a>   </li>
+        </ul>
+        <a class="btn" href="https://drive.google.com/file/d/1zCuTQc1dqA6-cM00RP-7OwrSf5Id3KPh/view?usp=sharing">Download CV</a>
+    </nav>
+    
+     <hr>
+    <div class="container" id="home">
+        <img src="images.jpeg" width="200" height="200">
+        <h3>Hi There...</h3>
+        <h3 class="name">My name is<span> Ankit Kumar</span></h3>
+        <h3 class="post">I Am an Intern At <span>SHIWANSH SOLUTION</span> </h3>
+        <form onsubmit="openEmailClient(event)">
+            <input type="email" name="email" id="mail" placeholder="Enter your Email" required>
+            <input type="submit" name="submit" value="Let's Talk">
+        </form>
+    </div>
+     
+   </div>
+
+<hr>
+<!--about section start-->
+<section class="about" id="about">
+    <div class="main">
+        <img src="C:\Users\vivek\OneDrive\Desktop\ankit\portfolio\public_html\WhatsApp Image 2024-03-16 at 02.28.39_9159902c.jpg">
+        <div class="about-text">
+            <h2>about me</h2>
+            <h5>open for work || Intern</h5>
+            <p> I am doing MCA at Chandigarh University. I am highly adaptive, a quick learner and having a polite nature.Which allows me to thrive in new environment, quickly aquire new skills and build positive relationship with others.</p>
+       <button type="button">Lets Talk</button>
+        </div>
+    </div>
+</section>
+<hr>
+<!--experience section  start-->
+<div class="achi" id="achi">
+<div class="title"><h2>My Achievments</h2></div>
+
+<div class="box">
+    <div class="card">
+            <h5>project</h5>
+    <div class="pra">
+        <p>i have done one month industrial project with USOM IT in my college, during the year 2019-2022.</p>
+    </div>
+</div>
+<div class="card">
+    <h5>Data Entry</h5>
+<div class="pra">
+<p>i have completed data entry cource from DAY_NULM Hazaribag with EXtra-Ordinary certicate.</p>
+</div>
+</div>
+<div class="card">
+    <h5>District Level</h5>
+<div class="pra">
+<p>during the time matriculation, i have attend the district level pre board test. in between around 5000 students, i got the 5th position in all.</p>
+</div>
+</div>
+<div class="card">
+    <h5>Certificates</h5>
+<div class="pra">
+<p>
+    <ul>
+        <li>Debating</li>
+        <li>B-Spelling Test</li>
+        <li>Drawing</li>
+        <li>Data-Entry</li>
+    </ul>
+</p>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="hobbies" id="hobbies">
+    <div class="title"><h2>My Hobbies</h2></div>
+    <div class="box">
+        <div class="card">
+                <h5>browsing net</h5>
+        <div class="pra">
+            <img src="nets.jpg" width="100%" height="100%" >
+        </div>
+    </div>
+
+    <div class="card">
+        <h5>writing story</h5>
+<div class="pra">
+    <p><img src="writing.jpg" width="100%" height="100%">
+        </p>
+</div>
+</div>
+
+<div class="card">
+    <h5>story telling</h5>
+<div class="pra">
+<p><img src="voice.jpg" width="100%" height="100%"></p>
+</div>
+</div>
+
+<div class="card">
+    <h5>cooking</h5>
+<div class="pra">
+<p><img src="coooking.jpg" width="100%" height="100%"></p>
+</div>
+</div>
+    </div>
+
+</div>
+</div>
+
+<!--footer-->
+<footer class="bru">
+    <h3>--Contact Information--</h3>
+<div class="add" >Address:: Hazaribag Jharkhand (825301)</div>
+<div class="Gmail" >Gmail::kumar233ankit@gmail.com</div>
+<div class="Phon " >Phon--001-121-221-111</div>
+ <p class="p">to subscribe my youtube channel- please click on the link below.</p>
+<a class="btn2" href="https://youtube.com/@TeachMeBest">Subscribe</a>-->
+
+<p class="p">to follow me on social media accounts- please click on the link below.</p>
+<div class="soc" id="accounts">
+       
+        <a class="btn" href="https://github.com/SoftCoderAnkit">GitHub</a>
+        <a class="btn"href="https://www.hackerrank.com/profile/prathamdubey16"> HackerRank</a>
+        <a class="btn" href="https://leetcode.com/u/CODE_BY_AnKiT/">Leetcode</a>
+        <a  class="btn"href="https://www.linkedin.com/in/ankit-dubey-5216a8228">linkedin</a>
+    </div>
+    <p class="end">Copyright By ankit dubey</p>
+</footer>
+    </body>
+</html>
